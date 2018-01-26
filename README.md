@@ -97,7 +97,7 @@ A clear difficulty that both the examples I have provided faced was that stylist
 
 ## Future Goals for This Project
 
-Ideally, what we would be able to accomplish with this project is an efficient way of applying stylistic transfer to videos. However, it must be stressed that the computational load when using neural network style transfer is very high. As a result, my proposed method for doing this is to first blur the images using either max pooling or average pooling, then applying the stylistic transfer. I observed noticeably quicker times when using photos that were smaller ( 112x112 photo took 7 minutes for 10 iterations vs 800x500 45 minutes for 5 iterations using Tesla K80 GPU - p2.xlarge instance on aws server).
+Ideally, what we would be able to accomplish with this project is an efficient way of applying stylistic transfer to videos. However, it must be stressed that the computational load when using neural network style transfer is very high. As a result, my proposed method for doing this is to first blur the images using either max pooling or average pooling, then applying the stylistic transfer. I observed noticeably quicker times when using photos that were smaller ( 112x112 photo took 7 minutes for 10 iterations vs 800x500 45 minutes for 5 iterations using Tesla K80 GPU).
 
 From there, the next logical step would be to apply super resolution to reform the transformed photos back to their original size using deconvolution (or convolutional transpose, depending on your preference for terminology) techniques. 
 
