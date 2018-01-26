@@ -7,3 +7,4 @@ bcoltz
 numpy
 scipy
 pandas
+nltk
