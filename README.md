@@ -1,1 +1,1 @@
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text]https://github.com/uhmwpe/artistic_gen/blob/master/content_recreate.gif
