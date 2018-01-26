@@ -7,9 +7,11 @@ A repository of code for applying different styles of paintings and drawings to 
 To install the dependencies, there are 2 commands you must run
 
 Pip requirements:
+
     pip install -r pip_requirements.txt
 
 Conda requirements:
+
     sudo sh conda_install_packages.sh
 
 And the python version used is 	python 3.6.3. It is recommended to start a new environment for this using the following code before running the above setup scripts
