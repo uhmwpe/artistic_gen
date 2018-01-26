@@ -1,1 +1,1 @@
-[logo]: https://github.com/uhmwpe/artistic_gen/blob/master/content_recreate.gif "Logo Title Text 2"
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
