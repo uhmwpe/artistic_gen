@@ -103,3 +103,7 @@ From there, the next logical step would be to apply super resolution to reform t
 
 Finally, the last thing I would like to experiment with is to apply an RNN or a variant (likely an LSTM due to exploding/vanishing gradient issues) as to capture the sequential information found in videos. Likely, the plan would be to pass a sequent of images into the RNN structure, which would be fed into the VGG network. Exact details of the implementation are still to be determined
 
+## Credits
+
+Jeremy Howard's utils file that I used to assist me with this project 
+
