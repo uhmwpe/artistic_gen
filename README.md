@@ -4,19 +4,9 @@ A repository of code for applying different styles of paintings and drawings to 
 
 ## Dependencies
 
-To install the dependencies, there are 2 commands you must run
-
-Pip requirements:
-
-    pip install -r pip_requirements.txt
-
-Conda requirements:
+To install the dependencies, one just needs to run one single command which will create a new virtual conda environment and install all the requisite dependencies (need anaconda3 installed first)
 
     sudo sh conda_install_packages.sh
-
-And the python version used is 	python 3.6.3. It is recommended to start a new environment for this using the following code before running the above setup scripts
-
-    conda create -n py36_test -y python=3.6 jupyter
 
 Note that the tensorflow backend for keras was used, since the default installation uses the Theano backend, to change it, one must enter the /.keras directory, and modify the keras.json file such that backend no longer corresponds to theano, and instead, corresponds to tensorflow
 
