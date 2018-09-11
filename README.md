@@ -87,6 +87,8 @@ This is a much different style transfer as the colors of the matrix image no lon
 
 ![Alt Text](https://github.com/uhmwpe/artistic_gen/blob/master/images/matrix_style_transfer.gif)
 
+![Alt Text](https://github.com/uhmwpe/artistic_gen/blob/master/images/style_transfer.gif)
+
 Here we see that the style transfer very successfully captures the human silhouette. We also see that the distinctinve numerical matrix background is beginning to form. However, we are still noticing that perhaps the base image is overbearing the style transfer, and perhaps for future iterations, we would like to further decrease the weight the content-loss has on the optimization problem.
 
 ## Technical Difficulties
